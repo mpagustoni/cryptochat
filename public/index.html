@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crypto Chat</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"
+        integrity="sha512-v8ng/uGxkge3d1IJuEo6dJP8JViyvms0cly9pnbfRxT6/31c3dRWxIiwGnMSWwZjHKOuY3EVmijs7k1jz/9bLA=="
+        crossorigin="anonymous"></script>
+        <script src="index.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <form id="chat">
+        <input type="text"name="username" placeholder="Digite seu usuário">
+        <div id="messages"class="messages"></div>
+        <input type="text"name="message" placeholder="Digite sua mensagem">
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+
+</html>
